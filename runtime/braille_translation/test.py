@@ -21,5 +21,5 @@ class TestChallengeSolution(unittest.TestCase):
         )
 
 if __name__ == "__main__":
-    suite = unittest.TestLoader().loadTestsFromTestCase(TestGoogleSolution)
+    suite = unittest.TestLoader().loadTestsFromTestCase(TestChallengeSolution)
     unittest.TextTestRunner(verbosity=2).run(suite)
