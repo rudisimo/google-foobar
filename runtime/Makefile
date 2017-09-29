@@ -5,4 +5,4 @@ all: $(MODULES)
 
 .PHONY: $(MODULES)
 $(MODULES):
-	python -m unittest -v $@.test
+	@python -m unittest -v $@.test
