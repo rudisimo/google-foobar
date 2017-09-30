@@ -18,3 +18,5 @@ LEVEL 3
 =======
 
 Awesome! Commander Lambda was so impressed by your efforts that she's made you her personal assistant. You'll be helping her directly with her work, which means you'll have access to all of her files-including the ones on the LAMBCHOP doomsday device. This is the chance you've been waiting for. Can you use your new access to finally topple Commander Lambda's evil empire?
+
+For a world-destroying despot with a penchant for making space-station-sized doomsday devices, Commander Lambda sure has good taste in office furniture. As her personal assistant, you have the latest in standing desk and ergonomic chair technology, and it sure makes a difference!
