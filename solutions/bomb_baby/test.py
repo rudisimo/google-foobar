@@ -8,6 +8,18 @@ class TestCase(unittest.TestCase):
     def test_case_2(self):
         self.assertEqual(solution.answer("4", "7"), "4")
 
+    def test_case_3(self):
+        self.assertEqual(solution.answer("2", "4"), "impossible")
+
+    def test_case_4(self):
+        self.assertEqual(solution.answer("4", "31"), "10")
+
+    def test_case_5(self):
+        self.assertEqual(solution.answer("9", "68"), "12")
+
+    def test_case_6(self):
+        self.assertEqual(solution.answer("95", "302"), "14")
+
 if __name__ == "__main__":
     suite = unittest.TestLoader().loadTestsFromTestCase(TestCase)
     unittest.TextTestRunner(verbosity=2).run(suite)
