@@ -20,3 +20,9 @@ This repository contains my journey through Google's "*secret*" recruitment tool
 ### Level 3
 
 - [Challenge 1: Bomb Baby](challenges/l3c1-bomb-baby.md)
+
+## Solutions
+
+Switch to the `solutions/` directory and run the unit tests by issuing the following command from the command line:
+
+    make test
