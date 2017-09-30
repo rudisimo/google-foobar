@@ -1,0 +1,2 @@
+def answer(maze):
+    pass
