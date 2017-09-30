@@ -19,7 +19,3 @@ class TestCase(unittest.TestCase):
 
     def test_case_6(self):
         self.assertEqual(solution.answer("95", "302"), "14")
-
-if __name__ == "__main__":
-    suite = unittest.TestLoader().loadTestsFromTestCase(TestCase)
-    unittest.TextTestRunner(verbosity=2).run(suite)

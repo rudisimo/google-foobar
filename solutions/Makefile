@@ -4,11 +4,9 @@ MODULES := $(shell find . -maxdepth 1 -mindepth 1 -type d -exec basename {} \;)
 all: test
 
 .PHONY: test
-test: $(MODULES)
-
-.PHONY: $(MODULES)
-$(MODULES):
+test:
 	@echo "======================================================================"
-	@echo "Running: $@"
+	@echo "Running unit tests"
 	@echo "----------------------------------------------------------------------"
-	@python -m unittest -v $@.test
+	@python -m unittest discover -v
+	@echo "----------------------------------------------------------------------"

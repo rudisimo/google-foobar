@@ -7,7 +7,3 @@ class TestCase(unittest.TestCase):
 
     def test_case_2(self):
         self.assertEqual(solution.answer(5, [19, 14, 28]), [21, 15, 29])
-
-if __name__ == "__main__":
-    suite = unittest.TestLoader().loadTestsFromTestCase(TestCase)
-    unittest.TextTestRunner(verbosity=2).run(suite)
