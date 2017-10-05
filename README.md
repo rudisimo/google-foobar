@@ -20,7 +20,8 @@ This repository contains my journey through Google's "*secret*" recruitment tool
 ### Level 3
 
 - [Challenge 1: Bomb Baby](challenges/l3c1-bomb-baby.md)
-- [Challenge 2: Prepare the Bunnies's Escape](challenges/l3c2-prepare-the-bunnies-escape.md)
+- [Challenge 2: The Grandest Staircase Of Them All](challenges/l3c2-the-grandest-staircase-of-them-all.md)
+- [Challenge 3: Prepare The Bunnies's Escape](challenges/l3c3-prepare-the-bunnies-escape.md)
 
 ## Solutions
 
