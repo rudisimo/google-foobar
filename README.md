@@ -11,6 +11,7 @@ This repository contains my journey through Google's "*secret*" recruitment tool
 ### Level 1
 
 - [Braille Translation](challenges/l1-braille-translation-2.md)
+- [Prison Labor Dodgers](challenges/l1-prison-labor-dodgers.md)
 
 ### Level 2
 
