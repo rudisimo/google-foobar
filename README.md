@@ -18,6 +18,7 @@ This repository contains my journey through Google's "*secret*" recruitment tool
 - [Ion Flux Relabeling](challenges/l2-ion-flux-relabeling.md)
 - [Don't Get Volunteered](challenges/l2-dont-get-volunteered.md)
 - [Elevator Challenge](challenges/l2-elevator-challenge.md)
+- [Power Hungry](challenges/l2-power-hungry.md)
 
 ### Level 3
 
