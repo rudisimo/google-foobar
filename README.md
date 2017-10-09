@@ -6,7 +6,7 @@ This repository contains my journey through Google's "*secret*" recruitment tool
 
 ## Challenges
 
-[Journal](journal.md)
+[Journal](challenges/journal.md)
 
 ### Level 1
 
