@@ -1,19 +1,24 @@
 def answer(n):
-    num = long(n)
-    steps = 0
+    n = long(n)
 
-    # exit quickly on edge cases
-    if num < 1 or len(n) > 309:
-        return 0
+    # define lookup table
+    lookup_table = { 1L: 0, 2L: 1 }
 
-    # handle quantum antimatter safety control
-    if num & 1 == 1:
-        num += 1       # pad to an even number
-        steps += 1     # this operation counts towards our goal
+    def calculate_steps(n):
+        # return memoized value in lookup table
+        if n in lookup_table:
+            return lookup_table[n]
 
-    # calculate the number of operations
-    while num > 1:
-        num >>= 1      # optimize division by using shift-right operation
-        steps += 1     # increase number of operations
+        # handle safety control limitations (optimized)
+        if n & 1:
+            # odd numbers have an extra operation due to constraint
+            lookup_table[n] = min(calculate_steps((n + 1) >> 1) + 2,
+                                  calculate_steps((n - 1) >> 1) + 2)
+        else:
+            # even numbers add a single operation
+            lookup_table[n] = calculate_steps(n >> 1) + 1
 
-    return steps
+        return lookup_table[n]
+
+    # calculate number of steps
+    return calculate_steps(n)
