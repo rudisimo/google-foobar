@@ -25,6 +25,7 @@ This repository contains my journey through Google's "*secret*" recruitment tool
 - [Bomb Baby](challenges/l3-bomb-baby.md)
 - [Prepare the Bunnies's Escape](challenges/l3-prepare-the-bunnies-escape.md)
 - [The Grandest Staircase Of Them All](challenges/l3-the-grandest-staircase-of-them-all.md)
+- [Fuel Injection Perfection](challenges/l3-fuel-injection-perfection.md)
 
 ## Solutions
 
